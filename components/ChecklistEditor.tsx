@@ -7,6 +7,7 @@ import { CheckSquare, Square, Plus, Trash2, CheckCircle2 } from 'lucide-react';
 interface ChecklistEditorProps {
   items: ChecklistItem[];
   onChange: (items: ChecklistItem[]) => void;
+  readOnly?: boolean;
 }
 
 export function ChecklistEditor({ items, onChange, readOnly = false }: ChecklistEditorProps) {
