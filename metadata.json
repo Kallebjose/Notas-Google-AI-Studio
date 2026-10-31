@@ -1,0 +1,8 @@
+{
+  "name": "Notas",
+  "description": "Aplicativo elegante e intuitivo de anotações com suporte a pastas, listas de tarefas, busca rápida e formatação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
